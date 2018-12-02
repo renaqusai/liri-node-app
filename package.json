@@ -21,5 +21,6 @@
     "spotify": "^0.3.0",
     "twitter": "^1.7.0"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {}
 }
