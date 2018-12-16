@@ -1,8 +1,8 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "Homework #8",
-  "main": "liri.js",
+  "description": "Node Application using Spotify API, Bandsintown Api &amp; OMDB API",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,17 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/renaqusai/liri-node-app.git"
   },
-  "author": "Qusai Amer",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/renaqusai/liri-node-app/issues"
   },
   "homepage": "https://github.com/renaqusai/liri-node-app#readme",
   "dependencies": {
-    "request": "^2.81.0",
-    "spotify": "^0.3.0",
-    "twitter": "^1.7.0"
-  },
-  "keywords": [],
-  "devDependencies": {}
+    "console.table": "^0.10.0",
+    "dotenv": "^6.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  }
 }
