@@ -1,7 +1,7 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "Node Application using Spotify API, Bandsintown Api &amp; OMDB API",
+  "description": "LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/renaqusai/liri-node-app#readme",
   "dependencies": {
-    "console.table": "^0.10.0",
-    "dotenv": "^6.2.0",
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
     "fs": "0.0.1-security",
     "moment": "^2.22.2",
-    "node-spotify-api": "^1.0.7"
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
   }
 }
